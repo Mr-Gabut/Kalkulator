@@ -8,11 +8,7 @@ h="\33[0;32m"
 m="\33[31;1m"
 p="\33[37;1m"
 k="\33[1;33m"
-print (f'{p}Gabung ke Group {h}WhatsApp {p}admin yuk!.')
 time.sleep (2)
-os.system('xdg-open https://chat.whatsapp.com/DuYq8oFeTEv7qgmAhtTcsL')
-time.sleep (5)
-os.system ('clear')
 def nyerat(c):
   c = c + '\n'
   for x in c:
@@ -39,9 +35,7 @@ print (f'{p}• {k}Youtube{p} : {k}FireMe')
 print (garis)
 nama = input(f"{m}? {p}Nama :{h} ")
 # Kita Mulai ke codingannya ya
-nulis(f"\n{p}Selamat datang {m}{nama} {p}semoga harimu menyenangkan jangan lupa solat!. \n\n{m}CTRL + c Untuk keluar.\n\n{p}Thanks to Allah and Propet Muhammad Sallallahu alaihi wasallam.\nBiar aku makin semangat bantu subs my chanel yutub sampahku ini ya.\nTerimakasih\n\nFireMe17 Team\n\nBuat yang pengin mondok kalian bisa hubungi nomor {h}WhatsApp {p}kami.\n")
-time.sleep (2)
-os.system ('xdg-open https://wa.me/6282116348574')
+nulis(f"\n{p}Selamat datang {m}{nama} {p}semoga harimu menyenangkan jangan lupa solat!.")
 time.sleep (3)
 pilih = f'''{p}1{m}.{p} Dikali
 {p}2{m}. {p}Ditambah
